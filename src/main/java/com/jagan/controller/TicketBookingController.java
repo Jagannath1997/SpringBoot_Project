@@ -31,4 +31,7 @@ public class TicketBookingController {
 		return ticketBookingService.getTicketById(ticketId);
 	}
 
+	public void demo(){
+		System.out.println("demo()..!");	
+	}
 }
